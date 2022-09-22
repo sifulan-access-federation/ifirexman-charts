@@ -3,9 +3,9 @@ entries:
   ifirexman-shibboleth-idp:
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-09-22T22:37:38.369616+08:00"
+    created: "2022-09-22T23:05:26.61735+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
-    digest: d9fbd41a713bfcea3bb6afc97788dc93c0c3cf7f7523813ccd7b694569800eb0
+    digest: 4304b23cc1b2649f5e0801de6a4a8512de7d067a73ea2e3c007269d8f541f4c8
     home: https://ifirexman.sifulan.my
     icon: https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-shibboleth-idp/e2361676d191e097c45de7f2ab3f927ffc6cfbae/logo.png
     keywords:
@@ -24,4 +24,4 @@ entries:
     urls:
     - https://sifulan-access-federation.github.io/ifirexman-charts/ifirexman-shibboleth-idp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-22T22:37:38.367737+08:00"
+generated: "2022-09-22T23:05:26.606871+08:00"
