@@ -26,7 +26,7 @@ print_help() {
     echo "OPTIONS:"
     echo "  -c, --chart         Container-based system."
     echo "  -h, --help          Show this help message."
-    echo "Report bugs to https://github.com/sifulan-access-federation/sifulan-charts/issues"
+    echo "Report bugs to https://github.com/sifulan-access-federation/ifirexman-charts/issues"
 }
 
 # update chart repository
