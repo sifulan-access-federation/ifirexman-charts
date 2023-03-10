@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   ifirexman-shibboleth-idp:
   - apiVersion: v2
+    appVersion: 4.2.1-r8
+    created: "2023-03-10T09:16:33.130222192+08:00"
+    description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
+    digest: aebd437325d5815e0dcd2a99ddac7cf3a06c85a50c86edf3d04f236eba3eb4dd
+    home: https://ifirexman.sifulan.my
+    icon: https://sifulan-access-federation.github.io/ifirexman-charts/ifirexman-shibboleth-idp-logo.png
+    keywords:
+    - Identity Provider
+    - Shibboleth
+    - iFIRExMAN
+    - Identity Federation
+    maintainers:
+    - email: support@sifulan.my
+      name: SIFULAN Malaysian Access Federation
+      url: https://sifulan.my
+    name: ifirexman-shibboleth-idp
+    sources:
+    - https://github.com/sifulan-access-federation/ifirexman-shibboleth-idp
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-charts/master/ifirexman-shibboleth-idp-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.8
-    created: "2023-02-09T16:52:13.239563832+08:00"
+    created: "2023-03-10T09:16:33.129363693+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: aa45c46bc5165e38b468be64611bb0a2b929625673a19ae40be1b42fe4be3c9c
     home: https://ifirexman.sifulan.my
@@ -26,7 +49,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2023-02-09T16:52:13.238184445+08:00"
+    created: "2023-03-10T09:16:33.128311055+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: bdf3b6a59a0018bcde55a5d0edb6dc56a5c1b30a95ae509e36bedd44920b51b0
     home: https://ifirexman.sifulan.my
@@ -47,4 +70,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-charts/master/ifirexman-shibboleth-idp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-09T16:52:13.237362036+08:00"
+generated: "2023-03-10T09:16:33.126964477+08:00"
