@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# get arguments
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -c|--chart)
+            if ! [ -z "$2" ]; then
+                CHART="$2"
+            fi
+            shift
+            ;;
+        -h|--help)
+            HELP=1
+            ;;
+        *)
+            echo "Invalid argument: $1"
+            exit 1
+            ;;
+    esac
+    shift
+done
+
+# print help
+print_help() {
+    echo "Usage: $0 [OPTIONS]"; echo
+    echo "OPTIONS:"
+    echo "  -c, --chart         Container-based system."
+    echo "  -h, --help          Show this help message."
+    echo "Report bugs to https://github.com/sifulan-access-federation/sifulan-charts/issues"
+}
+
+# update chart repository
+update_repo() {
+    # check arguments
+    if [ -z "$CHART" ]; then
+        echo "Source chart path must be specified."
+        exit 1
+    fi
+
+    # check if specified chart exists
+    if ! [ -d "$CHART" ]; then
+        echo "Source chart path does not exist."
+        exit 1
+    fi
+
+    # display source chart path
+    echo "Source chart path: $CHART"
+
+    # update git repository
+    git pull
+
+    # package chart
+    helm package "$CHART"
+
+    # update chart repository index
+    helm repo index --url https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-charts/master .
+}
+
+# main
+if [ -z "$HELP" ]; then
+    update_repo
+else
+    print_help
+fi
