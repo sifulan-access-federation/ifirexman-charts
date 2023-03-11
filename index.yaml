@@ -3,7 +3,7 @@ entries:
   ifirexman-eduroam-idp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-11T22:47:54.052181+08:00"
+    created: "2023-03-11T22:53:27.109928+08:00"
     description: A Helm chart for the eduroam IdP based on Freeradius 3
     digest: 542888a98c395e8a9380436580be8b01bebb4bdeb9e54d88514e233e20f630ac
     name: ifirexman-eduroam-idp
@@ -14,9 +14,9 @@ entries:
   ifirexman-letswifi-portal:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-11T22:47:54.05406+08:00"
+    created: "2023-03-11T22:53:27.110715+08:00"
     description: A Helm chart for the Let's Wifi Portal
-    digest: 284e6c1deb8b0fe493e07cacf44d3f8d65e2b87eeacf2de4429aaf6ad4ea2823
+    digest: 63fb7b3e4273f4f20eb309be8879aa04382a14490e37a431cbbe232516fc5e02
     name: ifirexman-letswifi-portal
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   ifirexman-shibboleth-idp:
   - apiVersion: v2
     appVersion: 4.2.1-r8
-    created: "2023-03-11T22:47:54.062496+08:00"
+    created: "2023-03-11T22:53:27.11976+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: aebd437325d5815e0dcd2a99ddac7cf3a06c85a50c86edf3d04f236eba3eb4dd
     home: https://ifirexman.sifulan.my
@@ -48,7 +48,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2023-03-11T22:47:54.058331+08:00"
+    created: "2023-03-11T22:53:27.114851+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: aa45c46bc5165e38b468be64611bb0a2b929625673a19ae40be1b42fe4be3c9c
     home: https://ifirexman.sifulan.my
@@ -71,7 +71,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2023-03-11T22:47:54.056094+08:00"
+    created: "2023-03-11T22:53:27.112578+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: bdf3b6a59a0018bcde55a5d0edb6dc56a5c1b30a95ae509e36bedd44920b51b0
     home: https://ifirexman.sifulan.my
@@ -92,4 +92,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-charts/master/ifirexman-shibboleth-idp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-11T22:47:54.051274+08:00"
+generated: "2023-03-11T22:53:27.109141+08:00"
