@@ -3,7 +3,7 @@ entries:
   ifirexman-eduroam-idp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-06-12T14:03:30.649878+08:00"
+    created: "2023-06-12T14:03:53.566157+08:00"
     description: A Helm chart for the eduroam IdP based on Freeradius 3
     digest: 542888a98c395e8a9380436580be8b01bebb4bdeb9e54d88514e233e20f630ac
     name: ifirexman-eduroam-idp
@@ -14,7 +14,7 @@ entries:
   ifirexman-letswifi-portal:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-06-12T14:03:30.651567+08:00"
+    created: "2023-06-12T14:03:53.567824+08:00"
     description: A Helm chart for the Let's Wifi Portal
     digest: 470d1f0d489ee4dfcf8ce872f88fd316438da8ce875949b1a98ea3d37d6df39b
     name: ifirexman-letswifi-portal
@@ -23,10 +23,10 @@ entries:
     - https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-charts/master/ifirexman-letswifi-portal-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    appVersion: 1.0.1
-    created: "2023-06-12T14:03:30.650706+08:00"
+    appVersion: 1.0.0
+    created: "2023-06-12T14:03:53.567+08:00"
     description: A Helm chart for the Let's Wifi Portal
-    digest: 21548796f34a2bdb7ace44d992b06262d59351830a3014c76130fb3b9f47f333
+    digest: 751a5e0ca21c6c9091131186d13794db9492f1871239538a73629d5b7fed3e35
     name: ifirexman-letswifi-portal
     type: application
     urls:
@@ -35,7 +35,7 @@ entries:
   ifirexman-shibboleth-idp:
   - apiVersion: v2
     appVersion: 4.2.1-r9
-    created: "2023-06-12T14:03:30.671441+08:00"
+    created: "2023-06-12T14:03:53.585577+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: 644863150f281150f13b630ea0ed41e4af36f5711dc2deb21f195771d3f7307d
     home: https://ifirexman.sifulan.my
@@ -58,7 +58,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 4.2.1-r9
-    created: "2023-06-12T14:03:30.668146+08:00"
+    created: "2023-06-12T14:03:53.58327+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: c2172d7ed275a442d32a9e362c9282505fd2afe3b1956123904241ad3d3fbd2b
     home: https://ifirexman.sifulan.my
@@ -81,7 +81,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 4.2.1-r9
-    created: "2023-06-12T14:03:30.664563+08:00"
+    created: "2023-06-12T14:03:53.579314+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: e14c81bb379e4e16791d972eb18d518a7527cb7fc77212fa1de1429692266a47
     home: https://ifirexman.sifulan.my
@@ -104,7 +104,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 4.2.1-r8
-    created: "2023-06-12T14:03:30.66197+08:00"
+    created: "2023-06-12T14:03:53.576828+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: aebd437325d5815e0dcd2a99ddac7cf3a06c85a50c86edf3d04f236eba3eb4dd
     home: https://ifirexman.sifulan.my
@@ -127,7 +127,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2023-06-12T14:03:30.659939+08:00"
+    created: "2023-06-12T14:03:53.573065+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: aa45c46bc5165e38b468be64611bb0a2b929625673a19ae40be1b42fe4be3c9c
     home: https://ifirexman.sifulan.my
@@ -150,7 +150,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2023-06-12T14:03:30.654288+08:00"
+    created: "2023-06-12T14:03:53.570508+08:00"
     description: A Helm chart for setting up an Shibboleth IdP in iFIRExMAN environment
     digest: bdf3b6a59a0018bcde55a5d0edb6dc56a5c1b30a95ae509e36bedd44920b51b0
     home: https://ifirexman.sifulan.my
@@ -174,7 +174,7 @@ entries:
   ifirexman-ssotest:
   - apiVersion: v2
     appVersion: 0.2.3
-    created: "2023-06-12T14:03:30.676295+08:00"
+    created: "2023-06-12T14:03:53.588702+08:00"
     description: SSO Test is an Attributes Release Checker service.
     digest: 54aa394e7185187d8d2a2cf425300a2751c8a6c75f18a9ae8ae004c295243598
     home: https://ifirexman.sifulan.my
@@ -194,7 +194,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2023-06-12T14:03:30.673938+08:00"
+    created: "2023-06-12T14:03:53.587147+08:00"
     description: SSO Test is an Attributes Release Checker service.
     digest: 97513a1d4107765d6cc9fa33cb77c9afc8b39b4a3eb4ea671b92e6cf3df62c47
     home: https://ifirexman.sifulan.my
@@ -212,4 +212,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sifulan-access-federation/ifirexman-charts/master/ifirexman-ssotest-0.1.1.tgz
     version: 0.1.1
-generated: "2023-06-12T14:03:30.646768+08:00"
+generated: "2023-06-12T14:03:53.563831+08:00"
